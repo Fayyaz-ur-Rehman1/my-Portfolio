@@ -1,0 +1,54 @@
+
+.main-matter {
+    color: rgb(16, 243, 209);
+    text-align: center;
+    margin-top: 100px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .title2 {
+    font-family: "Acme", sans-serif;
+    font-size: 70px;
+
+  }
+  .information2 {
+    color: white;
+    font-family: "Preahvihear", sans-serif;
+    font-size: 20px;
+  }
+  .contact-button {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+  }
+  .contact-button button {
+    padding: 10px;
+    border-radius: 10%;
+    border: none;
+    font-family: "Acme", sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    background-color: rgba(92, 92, 92, 0.718);
+    color: white;
+  }
+  .contact-button button a {
+    text-decoration: none;
+    color: white;
+  }
+  .contact-button button:hover {
+    background-color: black;
+    transition: 0.9s ease-in-out;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .title2 {
+      font-size: 50px;
+    }
+    
+  }
+  
